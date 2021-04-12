@@ -15,16 +15,23 @@ body {
 
     
     height: 90vh;
-    background-color:transparent;
-    background-image:url(img/Grupo\ de\ máscara\ 1.svg);
+    background-color: #0000005c;
     object-fit:contain;
     background-size:100%;
     background-repeat: no-repeat;
     position: relative;
+    padding: 0 16.5vw;
 
 
     
 
+}
+
+#img-header {
+
+    background-image:url(img/Grupo\ de\ máscara\ 1.svg);
+    object-fit:contain;
+    background-repeat: no-repeat;
 }
 
 
@@ -33,27 +40,28 @@ body {
 
     display: grid;
     grid-template-columns: 2fr 1fr;
-
     width: 100%;
-
     height: 10vh;
-    background-color:transparent
-    
-    
-}
+    background-color:teal
+    }
 
 .menu {
 
     height: 9vh;
     width: 58vw;
-    background-color:rgba(0, 255, 255, 0.212)
-    margin-top: 2vh;
-    }
+    background-color:rgba(0, 255, 255, 0.212);
+    margin-top: 2vh; 
+
+ }
+
+    
+
+
     
     .menu ul{
         margin-left: 16.9vw;
         font-size: 1.2vw;
-        background-color: rgba(0, 255, 255, 0.212);
+        background-color:#0000005c;
         padding: 0;
         width: 25.5vw;
         border-radius: 47px;
@@ -61,7 +69,7 @@ body {
     
     .menu li{
       
-       ;
+       
         display: inline; 
          
         
@@ -94,7 +102,7 @@ body {
 
     height:10vh ;
     margin-left: 0vh;
-    background-color:transparent;
+    background-color:yellow;
     width: 9vw;
     font-size: 1.2vw;
     
@@ -119,17 +127,18 @@ body {
     .actionContainer {
 
         
-        height: 59.8vh;
+        height: 54.8vh;
         width: 27vw;
         margin-top: 18vh;
-        background-color:transparent
+        background-color: #0000005c;
+        border-radius: 4vh;
     }
 
 
     .text {
 
         height: 50vh;
-        background-color:rgb(85, 17, 17)
+        background-color:rgb(85, 17, 17);
         font-family: 'Roboto', sans-serif;
         color: white;
     }
@@ -160,7 +169,7 @@ body {
         margin-left: 0vh;
         margin-right: 30vh;
         margin-top: -8vh;
-        background-color:TRA
+        background-color:navy;
         width: 9vw;
     }
 
@@ -172,8 +181,23 @@ body {
         color: whitesmoke;
         margin-top: 2vh;
         border: none;
+        padding: 10px 20px;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        box-shadow: inset 0 0 0 0 #FF4500;
+        transition: ease-out 0.3s;
+        outline: none;
+        border-radius: 4px;
+        position: relative;
+
     }
 
+    .button1:hover {
+      box-shadow:   inset 23vh 0 0 0 #FF4500;
+      cursor: pointer;
+
+    }
+   
     .button2 {
         height:9vh ;
         margin-left: 0vh;
@@ -181,30 +205,37 @@ body {
         width: 11vw;
         color: whitesmoke;
         border: none;
-        font-size: 1.2vw;
+        padding: 10px 20px;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        box-shadow: inset 0 0 0 0 #FF4500;
+        transition: ease-out 0.3s;
+        outline: none;
+        border-radius: 4px;
+        position: relative;
     }
 
-    .nevoa {
-
-        
-    height: 90vh;
-    width: 100%;
-    background-color:#0000005c;
-    position: absolute;
-
+    .button2:hover {
+        box-shadow:   inset 23vh 0 0 0 #FF4500;
+        cursor: pointer;
 
     }
 
-    .container {
-        
-        width: 100%;
-        height: 100%;
-        padding: 0 16.5vw;
+    
 
-    }
+    
+
+    
+
+    /*second scroll */
+
+    
+
+    
+
+    
 
 
     
 
 
-/* Introdução */
